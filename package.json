@@ -1,35 +1,26 @@
 {
-  "name": "Tech-Blog",
+  "name": "hacker-news-clone",
   "version": "1.0.0",
-  "description": "AS A developer who writes about tech\r I WANT a CMS-style blog site\r SO THAT I can publish articles, blog posts, and my thoughts and opinions",
-  "main": "index.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
     "test": "jest",
-    "start": "node server.js"
+    "seeds": "node seeds/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kaohzina/Tech-Blog.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kaohzina/Tech-Blog/issues"
-  },
-  "homepage": "https://github.com/kaohzina/Tech-Blog#readme",
   "dependencies": {
-    "bcrypt": "^5.0.1",
-    "connect-session-sequelize": "^7.1.2",
-    "dotenv": "^10.0.0",
+    "bcrypt": "^4.0.1",
+    "connect-session-sequelize": "^6.1.1",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "express-handlebars": "^5.3.4",
-    "express-session": "^1.17.2",
-    "handlebars": "^4.7.7",
-    "mysql2": "^2.3.2",
-    "sequelize": "^6.9.0"
+    "express-handlebars": "^3.1.0",
+    "express-session": "^1.17.0",
+    "handlebars": "^4.7.3",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.5"
   },
   "devDependencies": {
-    "jest": "^27.3.1"
+    "jest": "^25.1.0"
   }
 }
