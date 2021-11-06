@@ -29,9 +29,7 @@
         on
         {{created_at}}
       </div>
-      <div class="text">
-        {{comment_text}}
-      </div>
+      {{> comments post.comments}}
     </section>
   {{/each}}
 </div>
